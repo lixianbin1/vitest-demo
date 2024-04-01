@@ -1,0 +1,32 @@
+.el-menu-item>.el-icon,.el-sub-menu .el-icon{
+    font-size: 24px!important;
+}
+.el-sub-menu__title *{
+    vertical-align: bottom;
+    word-break: break-word;
+    white-space: pre-line;
+    line-height: 19px;
+    font-size: 17px;
+    text-shadow: 3px 3px 3px #393939;
+    letter-spacing: 1px;
+}
+.el-scrollbar{
+    width:100%
+}
+.el-header {
+    background-image: radial-gradient(transparent 1px, rgb(255 255 255) 1px);
+    border-bottom: 1px solid rgb(220 223 230);
+    font-size: 12px;
+}
+.el-menu-vertical:not(.el-menu--collapse) {
+    width: 250px;
+    height: calc(100% - 97px);
+}
+.el-menu-vertical>.el-menu-item>span{
+    word-break: break-word;
+    white-space: pre-line;
+    line-height: 19px;
+    font-size: 16px;
+    text-shadow: 3px 3px 3px #393939;
+    letter-spacing: 1px;
+}

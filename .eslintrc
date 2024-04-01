@@ -1,0 +1,12 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "eqeqeq": "off", //关闭 必须全等
+    "vue/eqeqeq": "off",  //关闭 必须全等
+    "curly": ["error", "multi-line"],
+    "brace-style": ["error", "stroustrup", { "allowSingleLine": false }],
+    "no-console": "off", //关闭 禁止console
+    "vue/custom-event-name-casing":"off", //关闭 自定义事件命名规则
+    // "vue/no-dupe-keys": "off", //关闭 重复key
+  }
+}
