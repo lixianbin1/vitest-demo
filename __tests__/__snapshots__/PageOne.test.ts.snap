@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PageOne > PageOne快照 1`] = `
+<div>
+  <div
+    class="head"
+  >
+    <h1>
+      Page One
+    </h1>
+    <h2>
+      mocked data
+    </h2>
+  </div>
+</div>
+`;

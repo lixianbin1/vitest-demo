@@ -1,0 +1,189 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HomePage页面的快照 1`] = `
+<div>
+  <div
+    class="el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table el-table--layout-fixed"
+    data-prefix="el"
+    data-v-d1d3d0d7=""
+    style="height: 100%;"
+  >
+    <div
+      class="el-table__inner-wrapper"
+    >
+      <div
+        class="hidden-columns"
+      >
+        
+        <div
+          data-v-d1d3d0d7=""
+        />
+        <div
+          data-v-d1d3d0d7=""
+        />
+        <div
+          data-v-d1d3d0d7=""
+        />
+        
+      </div>
+      <div
+        class="el-table__header-wrapper"
+      >
+        <table
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          class="el-table__header"
+        >
+          <colgroup />
+          <thead
+            class=""
+          >
+            <tr
+              class=""
+            />
+          </thead>
+        </table>
+      </div>
+      <div
+        class="el-table__body-wrapper"
+      >
+        <div
+          class="el-scrollbar"
+        >
+          <div
+            class="el-scrollbar__wrap el-scrollbar__wrap--hidden-default"
+          >
+            <div
+              class="el-scrollbar__view"
+              style="display: inline-block; vertical-align: middle;"
+            >
+              
+              <table
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+                class="el-table__body"
+                style="table-layout: fixed;"
+              >
+                <colgroup />
+                <!--v-if-->
+                <tbody
+                  tabindex="-1"
+                >
+                  
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  <tr
+                    class="el-table__row"
+                  />
+                  
+                </tbody>
+                <!--v-if-->
+              </table>
+              <!--v-if-->
+              <!--v-if-->
+              
+            </div>
+          </div>
+          
+          <transition-stub
+            appear="false"
+            css="true"
+            name="el-scrollbar-fade"
+            persisted="true"
+          >
+            <div
+              class="el-scrollbar__bar is-horizontal"
+              style="display: none;"
+            >
+              <div
+                class="el-scrollbar__thumb"
+                style="transform: translateX(0%);"
+              />
+            </div>
+          </transition-stub>
+          <transition-stub
+            appear="false"
+            css="true"
+            name="el-scrollbar-fade"
+            persisted="true"
+          >
+            <div
+              class="el-scrollbar__bar is-vertical"
+              style="display: none;"
+            >
+              <div
+                class="el-scrollbar__thumb"
+                style="transform: translateY(0%);"
+              />
+            </div>
+          </transition-stub>
+          
+        </div>
+      </div>
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+    <div
+      class="el-table__column-resize-proxy"
+      style="display: none;"
+    />
+  </div>
+</div>
+`;

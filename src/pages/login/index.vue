@@ -63,7 +63,9 @@
 </template>
 <script setup lang="ts">
 import {LoginData} from '@/common/InstanceType'
+import {Add} from '@/common/directive'
 import { Userlogin } from '@/apis'
+import { useI18n } from "vue-i18n";
 const router = useRouter()
 const { t } = useI18n()
 const VITE_version = ref('v2024.03.25')
@@ -89,7 +91,10 @@ const useRules = reactive({
 // 登录账户
 const loginRef = ref();
 const userInfo = useUserInfo()
+console.log(userInfo)
 const onLogin = async () => {
+  const bb = Add(1,2)
+  console.log(bb)
   Userlogin().then((data:LoginData)=>{
     sessionStorage.setItem('userToken',data.userToken)
     userInfo.value = data

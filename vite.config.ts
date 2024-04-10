@@ -1,15 +1,16 @@
-import { defineConfig } from 'vite'
+/// <reference types="vitest" />
+import VueI18n from '@intlify/unplugin-vue-i18n/vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
-import AutoImport from 'unplugin-auto-import/vite'
-import Components from 'unplugin-vue-components/vite'
-import VueI18n from '@intlify/unplugin-vue-i18n/vite'
-import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import Unocss from 'unocss/vite'
+import AutoImport from 'unplugin-auto-import/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 import Icons from 'unplugin-icons/vite'
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+import Components from 'unplugin-vue-components/vite'
+import { defineConfig } from 'vite'
 import Pages from 'vite-plugin-pages'
-import Layouts from 'vite-plugin-vue-layouts';
+import Layouts from 'vite-plugin-vue-layouts'
 
 export default defineConfig({
   plugins: [
@@ -94,9 +95,27 @@ export default defineConfig({
       },
     },
   },
-  esbuild: {
-    drop: ['console', 'debugger'],
+  test:{
+    debug: true,
+    coverage: { //覆盖率配置 
+      reporter: ['text', 'json', 'html'],
+      include:['src/**'],
+    },
+    includeSource: ['src/**/*.{js,ts}'], 
+    reporters: ['verbose'], //报告器：详情
+    environment: 'jsdom',    //测试环境：浏览器
+    server:{
+      deps: {
+        inline: ['element-plus'],
+      },
+    }
   },
+  define: {
+    'import.meta.vitest': 'undefined', 
+  }, 
+  // esbuild: {
+  //   drop: ['console', 'debugger'],
+  // },
   build:{
     target:['ES2020'],//浏览器兼容性
     rollupOptions: {//Rollup打包配置

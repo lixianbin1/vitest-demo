@@ -1,11 +1,17 @@
 <script setup lang="ts">
+import { HomeJson } from '@/apis';
+import { useI18n } from "vue-i18n";
 const { t } = useI18n()
-
+const router = useRouter()
 const goToUser = () => {
-
+  HomeJson().then(data=>{
+    console.log(data)
+  }).catch(err=>{
+    console.log(err)
+  })
 }
 const ToPage = () => {
-
+  router.push('./')
 }
 </script>
 

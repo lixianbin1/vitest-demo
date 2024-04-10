@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PageTwoInfo页面的快照 1`] = `
+<div>
+  <div
+    class="head"
+  >
+    <h1>
+      Page Two Info
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`defaultPage页面的快照 1`] = `
+<div>
+  <div>
+     404 
+  </div>
+</div>
+`;

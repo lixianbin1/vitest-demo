@@ -1,0 +1,110 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Head 组件 > Head页面的快照 1`] = `
+<div>
+  
+  <div
+    data-v-c6efbeae=""
+    flex=""
+    items-center=""
+    style="flex: 7;"
+  >
+    <h1
+      class="title"
+      data-v-c6efbeae=""
+      font-bold=""
+      text-center=""
+    >
+      Welcome to the template vue3
+    </h1>
+  </div>
+  <div
+    class="user"
+    data-v-c6efbeae=""
+    style="flex: 3;"
+  >
+    <button
+      aria-disabled="false"
+      class="el-button is-link userinfo"
+      data-v-c6efbeae=""
+      type="button"
+    >
+      <!--v-if-->
+      <span
+        class=""
+      >
+        
+        <i
+          class="el-icon"
+          data-v-c6efbeae=""
+          i-carbon:user-avatar=""
+        >
+          
+          
+        </i>
+        
+      </span>
+    </button>
+    <button
+      aria-disabled="false"
+      class="el-button el-button--danger is-link signout"
+      data-v-c6efbeae=""
+      type="button"
+    >
+      <!--v-if-->
+      <span
+        class=""
+      >
+        
+        <i
+          class="el-icon"
+          data-v-c6efbeae=""
+          i-carbon:logout=""
+        >
+          
+          
+        </i>
+        
+      </span>
+    </button>
+    <button
+      aria-disabled="false"
+      class="el-button is-link userinfo"
+      data-v-6f72e247=""
+      data-v-c6efbeae=""
+      type="button"
+    >
+      <!--v-if-->
+      <span
+        class=""
+      >
+        
+        <i
+          class="el-icon"
+          data-v-6f72e247=""
+        >
+          
+          <svg
+            data-v-6f72e247=""
+            height="1.2em"
+            viewBox="0 0 1024 1024"
+            width="1.2em"
+          >
+            <path
+              d="M640 384v64H448a128 128 0 0 0-128 128v128a128 128 0 0 0 128 128h320a128 128 0 0 0 128-128V576a128 128 0 0 0-64-110.848V394.88c74.56 26.368 128 97.472 128 181.056v128a192 192 0 0 1-192 192H448a192 192 0 0 1-192-192V576a192 192 0 0 1 192-192z"
+              fill="currentColor"
+            />
+            <path
+              d="M384 640v-64h192a128 128 0 0 0 128-128V320a128 128 0 0 0-128-128H256a128 128 0 0 0-128 128v128a128 128 0 0 0 64 110.848v70.272A192.06 192.06 0 0 1 64 448V320a192 192 0 0 1 192-192h320a192 192 0 0 1 192 192v128a192 192 0 0 1-192 192z"
+              fill="currentColor"
+            />
+          </svg>
+          
+        </i>
+        
+      </span>
+    </button>
+  </div>
+  
+</div>
+`;
